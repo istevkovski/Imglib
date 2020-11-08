@@ -1,15 +1,16 @@
 .actionbar {
-	position: absolute;
+	position: fixed;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: calc(100% + 48px);
+	width: calc(var(--wrapper-default) + 48px);
 	height: 50px;
 	bottom: -50px;
-	left: -24px;
+	left: 50%;
 	background-color: var(--main);
 	color: var(--text-main);
 	border-radius: 3px 3px 0 0;
+	transform: translateX(-50%);
 	transition: bottom .2s linear;
 
 	&--open {
@@ -25,5 +26,11 @@
 
 		&:first-child { margin-left: 0; }
 		&:last-child { margin-right: 0; }
+	}
+
+	@media only screen and (max-width: 1328px) {
+		width: 100%;
+		left: 0;
+		transform: unset;
 	}
 }

@@ -17,8 +17,6 @@
 
 	--wrapper-default: 1280px;
 
-	--interactive-height: 35px;
-
 	// 14px
 	--subhead: 0.875rem;
 	// 16px
@@ -33,10 +31,6 @@
 
 $font-lato: 'Lato', sans-serif;
 
-$shadow-default-x: 6px 0px 12px rgba(0,0,0,.16);
-$shadow-default-y: 0px 6px 12px rgba(0,0,0,.16);
-
-$transition-default: all .25s ease-in-out;
-
-$breakpoint-tablet: 1140px;
-$breakpoint-mobile-xs: 350px;
+$breakpoint-default: 1280px;
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 475px;

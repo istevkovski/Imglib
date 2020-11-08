@@ -13,6 +13,10 @@ body * {
 	flex-direction: column;
 	width: 100%;
 	max-width: var(--wrapper-default);
+
+	@media only screen and (max-width: $breakpoint-default) {
+		padding: 0 var(--space-regular);
+	}
 }
 
 .isrelative {
