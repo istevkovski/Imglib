@@ -21,7 +21,7 @@ const libraryReducer = (state = libraryReducerState, action) => {
 				...state,
 				activeImages: state.activeImages.filter((item, index) => {
 					if(index === state.selectedImage.id) deletedImage = item;
-					else return index !== state.selectedImage.id
+					return index !== state.selectedImage.id
 				}),
 				deletedImages: [...state.deletedImages, deletedImage],
 				selectedImage: {...libraryReducerState.selectedImage}
@@ -32,7 +32,7 @@ const libraryReducer = (state = libraryReducerState, action) => {
 				...state,
 				deletedImages: state.deletedImages.filter((item, index) => {
 					if(index === state.selectedImage.id) restoredImage = item;
-					else return index !== state.selectedImage.id
+					return index !== state.selectedImage.id
 				}),
 				activeImages: [...state.activeImages, restoredImage],
 				selectedImage: {...libraryReducerState.selectedImage}

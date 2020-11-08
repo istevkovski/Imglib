@@ -10,9 +10,9 @@ export default function ImageView () {
 
 	function renderImageCards () {
 		if(tab === 'active' && activeImages.length) {
-			return activeImages.map((item, index) => <ImageCard name={item.name} imgUrl={item.url} indexId={index} keyId={`imgCard_${index}`} key={`imgCard_${index}`} />)
+			return activeImages.map((item, index) => <ImageCard name={item.name} imgUrl={item.blob} indexId={index} keyId={`imgCard_${index}`} key={`imgCard_${index}`} />)
 		} else if (tab === 'deleted' && deletedImages.length) {
-			return deletedImages.map((item, index) => <ImageCard name={item.name} imgUrl={item.url} indexId={index} keyId={`imgCard_${index}`} key={`imgCard_${index}`} />)
+			return deletedImages.map((item, index) => <ImageCard name={item.name} imgUrl={item.blob} indexId={index} keyId={`imgCard_${index}`} key={`imgCard_${index}`} />)
 		}
 
 		return null;
