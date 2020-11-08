@@ -10,7 +10,7 @@ function Imglib() {
 
 	useEffect(() => {
 		dispatch(handleFetchBaseImages());
-	}, []);
+	}, [dispatch]);
 
 	return (
 		<>
