@@ -1,0 +1,42 @@
+// Root variables
+:root {
+	--background: #FFF;
+	--contrast: #F1F2F7;
+	--main: #464E70;
+	--text: #333;
+	--text-contrast: #666;
+	--text-main: #fff;
+
+	--space-spacer: 10px;
+	--space-half: 12px;
+	--space-regular: 16px;
+	--space-default: 24px;
+	--space-large: 32px;
+
+	--border-default: 3px;
+
+	--wrapper-default: 1280px;
+
+	--interactive-height: 35px;
+
+	// 14px
+	--subhead: 0.875rem;
+	// 16px
+	--body: 1rem;
+	// 18px
+	--headline: 1.125rem;
+	// 24px
+	--title: 1.5rem;
+	// 32px
+	--large-title: 2rem;
+}
+
+$font-lato: 'Lato', sans-serif;
+
+$shadow-default-x: 6px 0px 12px rgba(0,0,0,.16);
+$shadow-default-y: 0px 6px 12px rgba(0,0,0,.16);
+
+$transition-default: all .25s ease-in-out;
+
+$breakpoint-tablet: 1140px;
+$breakpoint-mobile-xs: 350px;

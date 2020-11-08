@@ -1,0 +1,27 @@
+html {
+	font-size: 100%;
+}
+
+body * {
+	font-family: $font-lato;
+	font-weight: 400;
+}
+
+.wrapper {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: var(--wrapper-default);
+}
+
+.isrelative {
+	position: relative;
+}
+
+.icon {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	cursor: pointer;
+}

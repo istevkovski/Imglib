@@ -1,0 +1,16 @@
+.imageview {
+	display: flex;
+	flex-wrap: wrap;
+
+	.imagecard {
+		$gap-spacing: var(--space-default);
+		margin: $gap-spacing $gap-spacing 0 0;
+		width: calc(1/4*100% - (1 - 1/4)*#{$gap-spacing});
+
+		// Removes right margin from every 4th child
+		&:nth-child(4n) { margin-right: 0; }
+		// Removes top margin from first row
+		// -n + 4 --> 4 columns per row
+		&:nth-child(-n+4) { margin-top: 0; }
+	}
+}

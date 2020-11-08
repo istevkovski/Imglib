@@ -1,0 +1,25 @@
+.imageViewControls {
+	margin: var(--space-large) 0;
+	display: inline-flex;
+	border: 1px solid var(--main);
+	border-radius: 6px;
+
+	&__option {
+		padding: var(--space-half) var(--space-default);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex: 1 1 0;
+		min-width: 0;
+		max-width: 200px;
+		text-align: center;
+
+		color: var(--main);
+		cursor: pointer;
+
+		&--active {
+			background-color: var(--main);
+			color: var(--text-main);
+		}
+	}
+}

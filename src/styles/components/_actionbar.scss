@@ -1,0 +1,29 @@
+.actionbar {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: calc(100% + 48px);
+	height: 50px;
+	bottom: -50px;
+	left: -24px;
+	background-color: var(--main);
+	color: var(--text-main);
+	border-radius: 3px 3px 0 0;
+	transition: bottom .2s linear;
+
+	&--open {
+		bottom: 0;
+	}
+
+	.icon {
+		margin: 0 12px;
+		svg {
+			height: 24px;
+			width: auto;
+		}
+
+		&:first-child { margin-left: 0; }
+		&:last-child { margin-right: 0; }
+	}
+}
