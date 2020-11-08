@@ -1,10 +1,10 @@
 [
-  {"name":"Partnership rationale","url":"/assets/images/image-3.jpg"},
-  {"name":"Who we are","url":"/assets/images/image-1.jpg"},
-  {"name":"Partnership rationale","url":"/assets/images/image-2.jpg"},
-  {"name":"Partnership rationale","url":"/assets/images/image-3.jpg"},
-  {"name":"Who we are","url":"/assets/images/image-1.jpg"},
-  {"name":"Our clubs","url":"/assets/images/image-5.png"},
-  {"name":"Our clubs","url":"/assets/images/image-5.jpg"},
-  {"name":"The opportunity","url":"/assets/images/image-4.jpg"}
+  {"name":"Partnership rationale","url":"./assets/images/image-3.jpg"},
+  {"name":"Who we are","url":"./assets/images/image-1.jpg"},
+  {"name":"Partnership rationale","url":"./assets/images/image-2.jpg"},
+  {"name":"Partnership rationale","url":"./assets/images/image-3.jpg"},
+  {"name":"Who we are","url":"./assets/images/image-1.jpg"},
+  {"name":"Our clubs","url":"./assets/images/image-5.png"},
+  {"name":"Our clubs","url":"./assets/images/image-5.jpg"},
+  {"name":"The opportunity","url":"./assets/images/image-4.jpg"}
 ]
